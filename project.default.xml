@@ -1,8 +1,8 @@
 <application>
   <component name="ProjectManager">
     <defaultProject>
-      <component name="PropertiesComponent">
-        <property name="settings.editor.selected.configurable" value="ics" />
+      <component name="ThriftCompiler">
+        <compilers />
       </component>
     </defaultProject>
   </component>
