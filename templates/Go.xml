@@ -1,0 +1,14 @@
+<templateSet group="Go">
+  <template name="json" value="json$var$,_ := json.MarshalIndent($var$, &quot;&quot;, &quot;\t&quot;)&#10;fmt.Println(&quot;TEST-VICTOR $var$&quot;, string(json$var$))&#10;$END$" description="Snippet print marshal indent" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="fmt" value="fmt.Println(&quot;TEST-VICTOR $var$&quot;, $var$)&#10;$END$" description="Template" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+</templateSet>
