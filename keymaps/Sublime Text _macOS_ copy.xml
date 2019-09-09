@@ -39,6 +39,10 @@
     <keyboard-shortcut first-keystroke="meta open_bracket" />
     <keyboard-shortcut first-keystroke="shift tab" />
   </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="meta alt close_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl right" />
+  </action>
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta d" />
   </action>
