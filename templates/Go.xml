@@ -5,7 +5,7 @@
       <option name="GO" value="true" />
     </context>
   </template>
-  <template name="fmt" value="fmt.Println(&quot;TEST-VICTOR $var$&quot;, $var$)&#10;$END$" description="Template" toReformat="false" toShortenFQNames="true">
+  <template name="fmt" value="fmt.Println(&quot;TEST-VICTOR $var$&quot;)&#10;$END$" description="Template" toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="GO" value="true" />
