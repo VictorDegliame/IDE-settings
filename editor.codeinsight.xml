@@ -6,6 +6,7 @@
     <option name="HIGHLIGHT_SCOPE" value="true" />
   </component>
   <component name="Go">
+    <option name="detectGoPackageFromClipboard" value="false" />
     <option name="renameCorrespondingTestOrProductionFile" value="YES" />
     <option name="renamePackageOnDirectoryRenaming" value="YES" />
     <option name="showDocumentationInParameterPopup" value="true" />
