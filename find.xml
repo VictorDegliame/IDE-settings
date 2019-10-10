@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="METADATA" />
+    <option name="FILE_MASK" value="*.go,!*_test.go,!types/*" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
@@ -13,5 +13,7 @@
     <mask>*.go</mask>
     <mask>!*_test.go,!thriftrw*,*.go</mask>
     <mask>METADATA</mask>
+    <mask>*.go,!*_test.go</mask>
+    <mask>*.go,!*_test.go,!types/*</mask>
   </component>
 </application>
